@@ -4,15 +4,37 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Poppins", sans-serif;
+    font-family:"Inter", sans-serif;
 }
 
 header{
+    max-width: 1730px;
+    margin: auto;
     display: flex;
+    padding: 40px 120px;
     justify-content: space-between;
-    gap: 7.99px;
     
-    & .navbar{
-        gap: 51.84px;
+    & .nav, 
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 51px;
+    & li a{
+        color: #6b7280;
+        font-size: 18px;
+        letter-spacing: 0.02em;
     }
+    a li a:first-child a{
+        color: #000;
+        font-weight: 600;
+
+    }
+    & button {
+        background: #1f2f39;
+        padding: 13px 35px;
+        gap: 8.07px;
+        border-radius: 8.07px;
+        color: #fff;
+    }
+  }
 }
