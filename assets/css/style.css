@@ -47,6 +47,10 @@ section{
     max-width: 1730px;
     margin: auto;
     padding: 120px;
+    background: #fff;
+}
+button{
+    cursor: pointer;
 }
 .home{
     display: flex;
@@ -88,7 +92,10 @@ section{
 
 .portfolio{
     & h2 {
-        margin-bottom: 109px;
+      max-width:  980px;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 60px;
     }
 
     & .cards{
@@ -116,6 +123,72 @@ section{
     } 
 }
 
-.about{
+.about {
+    max-width: 100%;
     background: #000;
-}
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  
+    & .padding {
+      max-width: 1730px;
+      padding: 120px;
+      margin: auto;
+    }
+  
+    & h2 {
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin-bottom: 29px;
+    }
+  
+    & .content {
+      & h3 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 55px;
+      }
+  
+      & button {
+        padding: 18px 63px;
+        border-radius: 10.87px;
+        border: none;
+        background: #fff;
+        font-weight: 700;
+        font-size: 24px;
+      }
+    }
+  }
+  
+  
+  
+  footer {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    
+    background: #000;
+    border-top: 1px solid #4F4F4F;
+    color: #FFFFFF80;
+    
+    & .padding {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1730px;
+      padding: 50px 120px;
+      margin: auto;
+    }
+    
+  
+    & .icons {
+      display: flex;
+      gap: 30px;
+  
+      & img {
+        cursor: pointer;
+      }
+    }
+  }
